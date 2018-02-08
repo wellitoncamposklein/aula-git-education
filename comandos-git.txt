@@ -1,2 +1,7 @@
 #Traz todos os commits em uma linha só
 git log --pretty=oneline 
+
+git log --pretty=oneline 
+
+#Todos os commits realizados a 2 dias atraz
+git log --since-2.days
