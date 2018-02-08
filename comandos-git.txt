@@ -5,3 +5,9 @@ git log --pretty=oneline
 
 #Todos os commits realizados a 2 dias atraz
 git log --since-2.days
+
+#Volta 1 commit atras deixando os arquivos no estágio 2
+git reset HEAD~1 --soft
+
+#Volta 1 commit e apaga todos os arquivos
+git reset HEAD~1 --hard
