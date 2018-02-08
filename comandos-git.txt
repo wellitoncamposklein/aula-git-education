@@ -1,0 +1,2 @@
+#Traz todos os commits em uma linha só
+git log --pretty=oneline 
