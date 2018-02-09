@@ -15,3 +15,6 @@ git checkout -- exemplo.php
 
 #Para remover um branch utilize o comando
 git branch -D nome-do-branch
+
+#Para recriar repositorio apos de dar um clone
+git checkout -b name-branch apelido(origin)/name-branch
