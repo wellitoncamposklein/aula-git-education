@@ -18,3 +18,6 @@ git branch -D nome-do-branch
 
 #Para recriar repositorio apos de dar um clone
 git checkout -b name-branch apelido(origin)/name-branch
+
+#remover um branch remoto
+git push origin :nome-do-branch
