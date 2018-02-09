@@ -12,3 +12,6 @@ git reset HEAD~1 --hard
 
 #Para você fazer o conteúdo do arquivo voltar ao estado original, digite:
 git checkout -- exemplo.php
+
+#Para remover um branch utilize o comando
+git branch -D nome-do-branch
