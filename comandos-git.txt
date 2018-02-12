@@ -21,3 +21,10 @@ git checkout -b name-branch apelido(origin)/name-branch
 
 #remover um branch remoto
 git push origin :nome-do-branch
+
+#para que as tags sejam enviadas, utilize o comando:
+git push origin master --tags
+
+#Agora se você quiser remover as tags criadas, utilize os comandos abaixo:
+git tag -d 0.1.0  (removendo tag localmente)
+git push origin :refs/tags/0.1.0 (removendo tag no repositório remoto)
